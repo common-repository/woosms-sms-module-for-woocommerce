@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "bulkgate/plugin",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BulkGate/plugin.git",
+                "reference": "f1fbe7b48261462bfc87456c71d74c5824169377"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BulkGate/plugin/zipball/f1fbe7b48261462bfc87456c71d74c5824169377",
+                "reference": "f1fbe7b48261462bfc87456c71d74c5824169377",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-zlib": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "1.4.2",
+                "nette/tester": "^2",
+                "phpstan/phpstan": "^1.9",
+                "rector/rector": "^0.16",
+                "tracy/tracy": "^2.9"
+            },
+            "time": "2023-12-06T12:19:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Lukáš Piják",
+                    "email": "lukaspijak@gmail.com"
+                }
+            ],
+            "description": "Meta package for BulkGate plugins",
+            "support": {
+                "issues": "https://github.com/BulkGate/plugin/issues",
+                "source": "https://github.com/BulkGate/plugin/tree/1.0.1"
+            },
+            "install-path": "../bulkgate/plugin"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
